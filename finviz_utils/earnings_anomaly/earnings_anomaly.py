@@ -3,7 +3,7 @@ from dateutil.relativedelta import relativedelta
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from earnings_calendar.constants import (
+from finviz_utils.earnings_calendar.constants import (
     DEFAULT_BEFORE_EARNINGS_DATE_DAYS,
     DEFAULT_AFTER_EARNINGS_DATE_DAYS,
     RANGES,
@@ -38,7 +38,7 @@ class AnomalyDataGenerator:
         
         df = pd.read_csv(price_history_path, index_col='Datetime')
         df.index = pd.to_datetime(df.index)
-        return df 
+        return df
 
     def earnings_report_range_price_change(self,
                                            before=DEFAULT_BEFORE_EARNINGS_DATE_DAYS,

@@ -3,7 +3,7 @@ from finviz.screener import Screener
 import pandas as pd
 from pprint import pprint as pp
 import numpy as np
-from constants import (
+from finviz_utils.constants import (
     PERFORMANCE_TABLE_ALL_FIELDS,
     CUSTOM_TABLE_ALL_FIELDS,
     CUSTOM_TABLE_FIELDS_ON_URL,

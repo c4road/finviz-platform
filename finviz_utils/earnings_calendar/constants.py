@@ -1,5 +1,4 @@
 EARNINGS_CALENDAR_FOLDER = 'EarningsCalendars/AlphaVantage'
-API_KEY = 'AR4WFMVZ4ODWUCH8'
 POST_PROCESSED_COLUMNS = [
     'Ticker',
     'Company',
